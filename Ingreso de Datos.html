@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la página -->
+  <title>Formulario de información personal</title>
+  <!-- Enlace a hoja de estilos externa -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Encabezado de la página -->
+  <header>
+    <h1>Formulario de información personal</h1>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Formulario -->
+    <form action="#" class="formulario-bonito">
+      <!-- Campo para ingresar el nombre -->
+      <div class="campo" style="margin-top: 30px;">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <!-- Campo para ingresar el correo electrónico -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+
+      <!-- Campo para ingresar una URL -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" required>
+      </div>
+
+      <!-- Campo para ingresar la fecha -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+      </div>
+
+      <!-- Campo para ingresar la hora -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="tiempo">Tiempo:</label>
+        <input type="time" id="tiempo" name="tiempo" required>
+      </div>
+
+      <!-- Campo para ingresar la fecha y hora -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="fechaHora">Fecha y hora:</label>
+        <input type="datetime-local" id="fechaHora" name="fechaHora" required>
+      </div>
+
+      <!-- Campo para ingresar el mes -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="mes">Mes:</label>
+        <input type="month" id="mes" name="mes" required>
+      </div>
+
+      <!-- Campo para ingresar la semana -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="semana">Semana:</label>
+        <input type="week" id="semana" name="semana" required>
+      </div>
+
+      <!-- Campo para ingresar un número dentro de un rango -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="numero">Número (min-10, max 100):</label>
+        <input type="number" id="numero" name="numero" min="10" max="100" required>
+      </div>
+
+      <!-- Campo para ingresar un número de teléfono -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+
+      <!-- Campo para ingresar un término de búsqueda -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="terminoBusqueda">Término de búsqueda:</label>
+        <input type="search" id="terminoBusqueda" name="terminoBusqueda" required>
+      </div>
+
+      <!-- Campo para seleccionar un color -->
+      <div class="campo" style="margin-top: 10px;">
+        <label for="colorFavorito">Color favorito:</label>
+        <input type="color" id="colorFavorito" name="colorFavorito" required>
+      </div>
+
+      <!-- Botón de envío del formulario -->
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <!-- Pie de página -->
+  <footer style="text-align: center;">
+    <p>&copy; 2024 Jaramillo Cano Bryan Roberto</p>
+  </footer>
+
+  <!-- Enlace a archivo de script externo -->
+  <script src="script.js"></script>
+</body>
+</html>
